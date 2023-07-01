@@ -1,6 +1,6 @@
 import csv
 import mysql.connector as connection
-conn = connection.connect(host='localhost',user='root',passwd='YOyo123456@')
+conn = connection.connect(host='localhost',user='root',passwd='********')
 print(conn.is_connected())
 curr = conn.cursor()
 
